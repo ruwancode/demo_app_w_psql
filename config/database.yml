@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: demo_app_w_psql_development
   pool: 5
-  username: demo_app_w_psql
+  username: Ruwan
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: demo_app_w_psql_test
   pool: 5
-  username: demo_app_w_psql
+  username: Ruwan
   password:
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: demo_app_w_psql_production
-  pool: 5
-  username: demo_app_w_psql
-  password:
+#production:
+#  adapter: postgresql
+#  encoding: unicode
+#  database: demo_app_w_psql_production
+#  pool: 5
+#  username: demo_app_w_psql
+#  password:
